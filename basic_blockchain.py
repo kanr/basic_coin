@@ -2,8 +2,7 @@
 #simple blockchain written in python
 import datetime as datetime
 import hashlib as hasher
-from snakecoin_block import *
-from flask import flask
+from flask import Flask
 from flask import request
 import json
 node = Flask(__name__)
